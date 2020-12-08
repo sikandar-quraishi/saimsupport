@@ -36,18 +36,29 @@
 font-family: 'Quicksand', sans-serif;
 */
 
-:root {
-  --thm-font: "Quicksand", sans-serif;
+/* :root { */
+  /* --thm-font: "Quicksand", sans-serif; */
   /* --thm-base: #fd632f; */
-  --thm-base: #252c4b;
+  /* --thm-base: #252c4b; */
+  /* --thm-base: #77c3cc; */
 
-  --thm-base-rgb: 253, 99, 47;
+  /* --thm-base-rgb: 253, 99, 47; */
   /* --thm-primary: #4550f8; */
-  --thm-primary: #76c3cc ;
+  /* --thm-primary: #76c3cc ; */
 
-  --thm-primary-rgb: 69, 80, 248;
+  /* --thm-primary-rgb: 69, 80, 248;
   --thm-black: #252c4b;
-  --thm-black-rgb: 37, 44, 75;
+  --thm-black-rgb: 37, 44, 75; */
+/* } */
+
+:root {
+  --thm-font: "Quicksand",sans-serif;
+  --thm-base: #252c4b;
+  --thm-base-rgb: 253,99,47;
+  --thm-primary: #f52020;
+  --thm-primary-rgb: 69,80,248;
+  --thm-black: #252c4b;
+  --thm-black-rgb: 37,44,75;
 }
 
 body {
