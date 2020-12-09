@@ -4,6 +4,7 @@ import ModalVideo from "react-modal-video";
 import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
 import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
+import BannerPc from "../assets/images/resources/desktop-pc-repair.png";
 
 const Banner = () => {
   const [open, setOpen] = useState({
@@ -34,8 +35,8 @@ const Banner = () => {
         </div>
         <div className="banner-one__moc">
           <img
-            src={BannerMoc}
-            className="wow fadeInUp"
+            src={BannerPc}
+            className="wow fadeInUp banner-image"
             data-wow-duration="1500ms"
             alt=""
           />

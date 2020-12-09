@@ -51,7 +51,7 @@ font-family: 'Quicksand', sans-serif;
   --thm-black-rgb: 37, 44, 75; */
 /* } */
 
-:root {
+/* :root {
   --thm-font: "Quicksand",sans-serif;
   --thm-base: #252c4b;
   --thm-base-rgb: 253,99,47;
@@ -59,8 +59,16 @@ font-family: 'Quicksand', sans-serif;
   --thm-primary-rgb: 69,80,248;
   --thm-black: #252c4b;
   --thm-black-rgb: 37,44,75;
+} */
+:root {
+  --thm-font: "Quicksand",sans-serif;
+  --thm-base: #0093d7;
+  --thm-base-rgb: 253,99,47;
+  --thm-primary: #f52020;
+  --thm-primary-rgb: 69,80,248;
+  --thm-black: #0093d7;
+  --thm-black-rgb: 37,44,75;
 }
-
 body {
   font-family: var(--thm-font);
   color: #737789;
@@ -674,7 +682,7 @@ a:visited {
 }
 
 .main-nav__main-navigation .main-nav__navigation-box > li > a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #737789;
   display: block;
@@ -995,6 +1003,19 @@ a:visited {
   right: -1.75%;
   -webkit-animation: ImgBounce 5s ease-in-out 0s infinite alternate;
   animation: ImgBounce 5s ease-in-out 0s infinite alternate;
+}
+
+.banner-image{
+  width: 30em;
+  margin: 4em 0em;
+}
+
+@media (max-width: 991px){
+  .banner-image{
+    width: 30em;
+    margin: 0em 0em;
+    margin-left: -6px;
+  }
 }
 
 .banner-one__mc-form {
@@ -2886,6 +2907,8 @@ a:visited {
 .cta-one__moc img {
   -webkit-animation: ImgBounce 5s ease-in-out 0s infinite alternate;
   animation: ImgBounce 5s ease-in-out 0s infinite alternate;
+  width: 27em;
+
 }
 
 .cta-one__content .block-title {
