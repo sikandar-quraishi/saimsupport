@@ -19,7 +19,7 @@ const Services = () => {
                   <i className="apton-icon-computer-graphic"></i>
                 </div>
                 <h3>Data recovery</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <p>We researched leading hard drive recovery services and 100% data recovery.</p>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Services = () => {
                   <i className="apton-icon-development"></i>
                 </div>
                 <h3>Computer repair</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <p>We are provide computer repair services professionally and efficiently.</p>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Services = () => {
                   <i className="apton-icon-development1"></i>
                 </div>
                 <h3>Network solutions</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <p>Launch your site with the web hosting, domain names, design and start your business.</p>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Services = () => {
                   <i className="apton-icon-responsive"></i>
                 </div>
                 <h3>Web Development</h3>
-                <p>Lorem ipsum is are many variations of pass majy.</p>
+                <p>We are providing web services, and we have an expert team for grow your business.</p>
               </div>
             </div>
           </div>

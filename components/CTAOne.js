@@ -24,8 +24,7 @@ const CTAOne = () => {
               />
               <div className="cta-one__text">
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
+                Now you can resolve your all provlems, from your home with our remote services.
                 </p>
               </div>
               <ul className="list-unstyled cta-one__list">

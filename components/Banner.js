@@ -58,8 +58,9 @@ const Banner = () => {
                 Welcome to<br /> Saim Computer<br />Repair Services
               </h3>
               <p>
-                Nulla facilisi. Proin felis neque, suscipit egestas erat a{" "}
-                <br /> tincidunt finibus magna consectetur lacus.
+               
+                We provide remote support to our customers and act as an{" "}
+                <br />internal remote helpdesk.
               </p>
               <a href="#" className="thm-btn banner-one__btn">
                 <span>Discover More</span>

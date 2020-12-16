@@ -36,7 +36,7 @@ const HomePage = () => (
       <CTATwo />
       {/* <Pricing /> */}
       <Testimonials />
-      <Clients />
+      {/* <Clients /> */}
       <Team />
       <VideoOne />
       <AppScreen />

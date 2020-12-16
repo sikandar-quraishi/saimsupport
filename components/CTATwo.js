@@ -37,9 +37,7 @@ const CTATwo = () => {
               </div>
               <div className="cta-two__text">
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Lorem Ipsum is simply
-                  dummy text of the printing laborum perspiciatis unde.
+                Our website developers provide expert web application development and web design services to our clients. Appnovation offers a variety of website design and development services, from creating mobile web development solutions and responsive website designs, to building custom e-commerce and intranet experiences using the latest and proven web technologies.
                 </p>
               </div>
               <a href="#" className="thm-btn cta-two__btn">

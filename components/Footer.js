@@ -36,7 +36,7 @@ const Footer = () => {
                   </a>
                   <p>
                     Mobile No:- +91 9759331331 <br /> 
-                    Mail:- saimsuppor.info@gmail.com
+                    Mail:- sameersaim308@gmail.com
                     <br /> Address:- Aonla, Bisauli Road Bayi Pass, K.P SINGH HOSPITAL KE SAMNE. (District:- Bareilly)
                   </p>
                 </div>

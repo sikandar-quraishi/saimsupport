@@ -24,8 +24,8 @@ const Team = () => {
             <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
-                <h3>Nathaniel McKenzie</h3>
-                <p>App Designer</p>
+                <h3>Sameer Saim</h3>
+                <p>Computer Hardware IT-Engineer</p>
                 <div className="team-one__image">
                   <img src={TeamMemeber1} alt="" />
                 </div>
@@ -47,8 +47,9 @@ const Team = () => {
             <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
-                <h3>Ronald Parks</h3>
-                <p>App Designer</p>
+                <h3>Vivek Pathak</h3>
+                <p>Computer Hardware Engineer(Cheap Level)</p>
+                
                 <div className="team-one__image">
                   <img src={TeamMemeber2} alt="" />
                 </div>
@@ -93,8 +94,8 @@ const Team = () => {
             <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
-                <h3>Willie Castillo</h3>
-                <p>App Designer</p>
+                <h3>Faizal</h3>
+                <p>Field Work</p>
                 <div className="team-one__image">
                   <img src={TeamMemeber4} alt="" />
                 </div>
