@@ -7,6 +7,9 @@ import TeamMemeber1 from "../assets/images/team/team-1-1.jpg";
 import TeamMemeber2 from "../assets/images/team/team-1-2.jpg";
 import TeamMemeber3 from "../assets/images/team/team-1-3.jpg";
 import TeamMemeber4 from "../assets/images/team/team-1-4.jpg";
+import Sameer11 from '../assets/images/sameer11.png'
+import SmeerBro1 from '../assets/images/sameer-bro1.png'
+
 
 const Team = () => {
   return (
@@ -27,7 +30,7 @@ const Team = () => {
                 <h3>Sameer Saim</h3>
                 <p>Computer Hardware IT-Engineer</p>
                 <div className="team-one__image">
-                  <img src={TeamMemeber1} alt="" />
+                  <img src={Sameer11} alt="" />
                 </div>
                 <div className="team-one__social">
                   <a href="#">
@@ -43,7 +46,7 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          {/* <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
@@ -66,8 +69,8 @@ const Team = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          </div> */}
+          {/* <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="team-one__single">
               <div className="team-one__circle"></div>
               <div className="team-one__inner">
@@ -89,7 +92,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="team-one__single">
               <div className="team-one__circle"></div>
@@ -97,7 +100,7 @@ const Team = () => {
                 <h3>Faizal</h3>
                 <p>Field Work</p>
                 <div className="team-one__image">
-                  <img src={TeamMemeber4} alt="" />
+                <img src={SmeerBro1} alt="" />
                 </div>
                 <div className="team-one__social">
                   <a href="#">
