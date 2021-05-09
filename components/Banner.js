@@ -5,6 +5,7 @@ import BannerShape from "../assets/images/shapes/banner-shape-1-1.png";
 import BannerBG from "../assets/images/resources/banner-image-1-1.jpg";
 import BannerMoc from "../assets/images/resources/banner-moc-1-1.png";
 import BannerPc from "../assets/images/resources/desktop-pc-repair.png";
+import bgp from '../assets/images/bgp.jpg'
 
 const Banner = () => {
   const [open, setOpen] = useState({
@@ -21,7 +22,7 @@ const Banner = () => {
       <img src={BannerShape} className="banner-one__bg-shape-1" alt="" />
       <div
         className="banner-one__bg"
-        style={{ backgroundImage: `url(${BannerBG})` }}
+        style={{ backgroundImage: `url(${bgp})` }}
       ></div>
       <div className="container">
         <ModalVideo
@@ -34,12 +35,12 @@ const Banner = () => {
           <i className="fa fa-play"></i>
         </div>
         <div className="banner-one__moc">
-          <img
+          {/* <img
             src={BannerPc}
             className="wow fadeInUp banner-image"
             data-wow-duration="1500ms"
             alt=""
-          />
+          /> */}
         </div>
         <div className="row">
           <div className="col-lg-7">
@@ -55,14 +56,17 @@ const Banner = () => {
               </form> */}
               <div className="mc-form__response"></div>
               <h3>
-                Welcome to<br /> Saim Computer<br />Repair Services
+                Welcome to Saim
+                <br />
+                 Support Computers
+                {/* <br />
+                Repair Services */}
               </h3>
-              <p>
-               
-                We provide remote support to our customers and act as an{" "}
-                <br />internal remote helpdesk.
+              <p style={{ fontWeight: "bold", color: "#000" }}>
+                We provide remote support to our customers and act as an <br />
+                internal remote helpdesk.
               </p>
-              <a href="#" className="thm-btn banner-one__btn">
+              <a href="https://www.facebook.com/saimxx3/" className="thm-btn banner-one__btn">
                 <span>Discover More</span>
               </a>
             </div>
