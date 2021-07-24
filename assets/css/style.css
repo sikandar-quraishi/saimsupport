@@ -2903,8 +2903,10 @@ a:visited {
 
 .cta-one__moc {
   position: absolute;
-  left: -190px;
-  bottom: -150px;
+  /* left: -190px;
+  bottom: -150px; */
+  left: -45px;
+  bottom: 20px;
 }
 
 .cta-one__moc img {
